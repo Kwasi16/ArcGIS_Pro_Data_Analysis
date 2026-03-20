@@ -1,150 +1,104 @@
-# 🌍 Navarro Streams Analysis — ArcGIS Pro Project
+# ArcGIS Professional Portfolio
 
-## 📌 Project Overview
-
-This project demonstrates a complete introductory GIS workflow using **ArcGIS Pro**, focusing on data acquisition, visualization, and spatial analysis. The objective was to extract and analyze stream networks within the Navarro watershed boundary using the NHD Flowline dataset.
-
-This project reflects real-world GIS practices such as working with geodatabases, applying symbology for interpretation, and performing spatial queries to isolate meaningful subsets of data.
-
-## 🛠️ Tools & Technologies
-
-### Software
-
-* ArcGIS Pro *(access provided via UC Davis)*
-
-### GIS Tools Used
-
-* **Explore Tool** — used to inspect spatial features and attribute data
-* **Select By Location** — used to identify features based on spatial relationships
-* **Export Features** — used to create a new dataset from selected features
-* **Symbology Panel** — used to modify visual representation of spatial data
-
----
-## 🗂️ Datasets
-
-### 1. NHD Flowline Dataset
-
-* **Type:** File Geodatabase Feature Class
-* **Source:** National Hydrography Dataset (NHD)
-* **Description:**
-  Represents linear water features such as rivers, streams, and flow paths.
-  Attribute data includes feature names and classifications, allowing verification of real-world water systems.
+This portfolio showcases expertise in Geographic Information Systems (GIS) using **ArcGIS Pro** and related tools. It is structured into three levels of analysis: Basic, Intermediate, and Advanced, demonstrating hands-on experience, technical skills, and applied knowledge across multiple GIS domains.
 
 ---
 
-### 2. Navarro Boundary Dataset
+## Basic Analysis
 
-* **Type:** Polygon Feature Class
-* **Description:**
-  Defines the geographic boundary of the Navarro watershed, used to spatially constrain the analysis.
+**Focus:** Core GIS concepts, map navigation, data management, and symbology.
 
----
+**Skills Demonstrated:**
 
-### 🧠 Data Structure: File Geodatabase
+* Creating and managing ArcGIS Pro projects and geodatabases
+* Map navigation and data exploration
+* Working with vector data, shapefiles, and feature classes
+* Symbolizing layers using unique values, graduated colors, and density-based methods
+* Attribute queries, spatial queries, and definition queries
+* Labeling features and creating geodatabase annotation
+* Integrating tabular data through joins and relates
 
-Both datasets are stored within a **File Geodatabase (.gdb)**, which functions as:
+**Key Tools & Techniques:**
 
-i. A structured container for spatial datasets
-ii. A system for managing relationships between geographic features
-iii. An efficient format for storing and querying large geospatial data
-
-### 🔑 Key Insight: Authentication in ArcGIS Pro
-
-Access to institutional resources in ArcGIS Pro requires connecting to the correct ArcGIS Online organization. This is done by entering the organization URL during sign-in, which links the user to shared datasets, licenses, and cloud-based tools.
-
----
-
-## 🗂️ Data Management & Geodatabases
-
-Data was imported and organized using ArcGIS Pro’s Catalog system.
-
-* Opened the **Catalog Pane**
-* Connected to the folder containing extracted course data
-* Located and accessed `source.gdb`
-* Added the **NHD Flowline** dataset to the map
-
-### 🧠 Understanding Geodatabases
-
-A geodatabase is best understood as a **structured, folder-like database** designed to store and organize spatial data. It supports multiple datasets, preserves relationships, and enables efficient data management within GIS workflows.
+* ArcGIS Pro interface and project templates
+* Raster and vector data handling
+* Basic spatial analysis
+* Data visualization and presentation
 
 ---
 
-## 🔍 Exploring the Data
+## Intermediate Analysis
 
-Initial exploration helps build familiarity with spatial and attribute data.
+**Focus:** Geospatial analysis workflows, raster processing, and advanced querying.
 
-* Used zoom tools to examine spatial distribution at different scales
-* Applied the **Explore Tool** to inspect individual features
-* Accessed attribute tables to review feature-level information
+**Skills Demonstrated:**
 
-### 🌊 Understanding the NHD Flowline Dataset
+* Creating and working with raster data, heat maps, and raster functions
+* Conducting network-based analysis and hotspot detection
+* Advanced data preparation and relational database management
+* Querying and analyzing large spatial datasets
+* Web mapping and ArcGIS Online integration
+* Data quality assessment and management
 
-The NHD Flowline dataset represents **surface water features**, including rivers, streams, and flow paths. This can be confirmed by:
+**Key Tools & Techniques:**
 
-* Inspecting the attribute table (e.g., stream names and classifications)
-* Reviewing metadata within layer properties
-
----
-
-## 🎨 Symbology & Data Visualization
-
-Symbology was adjusted to improve interpretability of spatial features.
-
-* Modified line color to reflect real-world representation (e.g., blue for water features)
-
-### 🎯 Why Symbology Matters
-
-Effective symbology bridges the gap between raw data and human understanding. By aligning map visuals with real-world expectations (e.g., blue for rivers), users can quickly interpret spatial information. For example, changing stream lines to blue makes them immediately recognizable, improving clarity during analysis.
+* ArcGIS Pro Spatial Analyst and Network Analyst extensions
+* ArcGIS Online and ArcGIS Enterprise
+* ModelBuilder for building complex geoprocessing workflows
+* Raster analysis, map layouts, and cartography best practices
 
 ---
 
-## 📍 Spatial Analysis: Focusing on Navarro Watershed
+## Advanced Analysis
 
-To refine the analysis, the dataset was constrained to a specific geographic region.
+**Focus:** Professional-level geospatial problem solving, 3D modeling, environmental analysis, and data storytelling.
 
-* Added the **Navarro boundary** layer
-* Used **Select By Location** to identify streams intersecting the boundary
-* Exported the selected features as a new dataset: `navarro_streams`
+**Skills Demonstrated:**
 
-### 🧠 Why Subset Data by Boundary?
+* Developing full geospatial analysis projects from conception to results interpretation
+* 3D spatial modeling and environmental analysis
+* Geoprocessing with advanced tools (ArcGIS 3D Analyst, Image Analyst, Arcade scripting)
+* Hazard analysis, land and resource management, and emergency response planning
+* Data storytelling, visualization, and presentation for decision-making
+* Epidemiology and public health GIS applications
 
-Subsetting data allows analysts to:
+**Key Tools & Techniques:**
 
-* Focus on a specific area of interest
-* Reduce data complexity
-* Improve processing efficiency
-
-In this case, isolating streams within the Navarro watershed enables targeted environmental or hydrological analysis relevant to that region.
-
----
-
-## 🔄 Workflow Diagram
-
-```
-Data Acquisition → Project Setup → Data Import → Exploration → Symbology → Spatial Selection → Export → Final Dataset
-```
+* ArcGIS Pro advanced extensions (Spatial Analyst, Network Analyst, 3D Analyst, Image Analyst)
+* Python scripting for automation and geoprocessing
+* Creating and sharing analytical results with ArcGIS Online
+* Integrating GIS analysis with public health, environmental management, and community health data
 
 ---
 
-## 📊 Results & Outcome
+## Applied Learning Projects
 
-* Successfully extracted stream features within the Navarro boundary
-* Created a new dataset (`navarro_streams`) for focused analysis
-* Improved data visualization through effective symbology
-* Demonstrated the use of spatial queries in GIS workflows
-
----
-
-## 📷 Visual Documentation
-
-* NHD Flowline dataset visualization - Insert GitHub link
-* Select By Location results Insert GitHub link
-
+* All projects demonstrate **hands-on experience** developing geospatial solutions
+* Focused on **real-world applications** in environmental analysis, resource management, public health, and community planning
+* Showcase ability to **analyze spatial data, interpret results, and communicate findings** visually and in reports
 
 ---
 
-## 🧾 Conclusion
+## Skills & Expertise Gained
 
-This project demonstrates foundational GIS skills including data management, visualization, and spatial analysis. By extracting and analyzing streams within a defined watershed, the workflow highlights how GIS enables focused, location-based insights. These techniques are essential for real-world applications such as environmental monitoring, resource management, and spatial decision-making.
+* ArcGIS Pro & ArcGIS Online
+* Spatial analysis, geospatial mapping, and data visualization
+* Geospatial information and technology for professional applications
+* Data presentation, quality, sharing, and storytelling
+* Environmental science, hazard analysis, epidemiology, and public health GIS
+* Community health and resource management applications
 
 ---
+
+## Certifications & Credentials
+
+* Career-ready skills endorsed by **University of California, Davis**
+
+---
+
+**Software & Tools:**
+
+* ArcGIS Pro, ArcGIS Online, ArcGIS Enterprise
+* ArcGIS Network Analyst, Spatial Analyst, 3D Analyst, Image Analyst
+* ArcGIS Arcade scripting
+* Python for geospatial automation
