@@ -1,6 +1,6 @@
 # ArcGIS Professional Portfolio
 
-This portfolio showcases expertise in Geographic Information Systems (GIS) using **ArcGIS Pro** and related tools. It is structured into three levels of analysis: Basic, Intermediate, and Advanced, demonstrating hands-on experience, technical skills, and applied knowledge across multiple GIS domains.
+This portfolio showcases my expertise in Geographic Information Systems (GIS) using **ArcGIS Pro** and related tools. It is structured into three levels of analysis: Basic, Intermediate, and Advanced, demonstrating hands-on experience, technical skills, and applied knowledge across multiple GIS domains.
 
 ---
 
